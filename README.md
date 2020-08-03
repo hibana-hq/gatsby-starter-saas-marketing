@@ -1,4 +1,4 @@
-## ☁️ A simple one page marketing site starter for SaaS companies and indie hackers.
+## ☁️ Welcome to Hibana.
 
 [Live Demo: https://gatsby-starter-saas-marketing.netlify.com/ ](https://gatsby-starter-saas-marketing.netlify.com/)
 
