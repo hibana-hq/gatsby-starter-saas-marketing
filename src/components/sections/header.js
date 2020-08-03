@@ -27,23 +27,23 @@ const Header = () => {
       <Container>
         <Flex>
           <HeaderTextGroup>
-            <Subtitle>Personal Finance</Subtitle>
+            <Subtitle>Sign Up</Subtitle>
             <h1>
-              All your money,
+              Browse & discover
               <br />
-              one account
+              independent brands
             </h1>
             <h2>
-              We're building next generation personal finance tools. Sign up to
-              get early access.
+              Enabling the joy of browsing through a personalised, data-driven,
+              shopping experience. Sign up to get early access*.
             </h2>
             <HeaderForm onSubmit={handleSubmit}>
               <HeaderInput placeholder="Your email" />
               <HeaderButton>Early access</HeaderButton>
             </HeaderForm>
             <FormSubtitle>
-              Already have a beta account?{" "}
-              <FormSubtitleLink to="/">Sign in</FormSubtitleLink>
+              *We hate spam mail just as much as you and will only email you
+              when we are ready to launch!
             </FormSubtitle>
           </HeaderTextGroup>
           <ImageWrapper>
@@ -59,7 +59,7 @@ const Header = () => {
 export default Header
 
 const HeaderWrapper = styled.header`
-  background-color: #f8f8f8;
+  background-color: #f6ecf1;
   padding: 160px 0 80px 0;
   position: relative;
   clip-path: polygon(0 0, 100% 0, 100% 100%, 0 calc(100% - 5vw));
